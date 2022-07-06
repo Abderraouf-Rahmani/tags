@@ -31,13 +31,18 @@
     align-items: center;
 }
 
+#tag-container:hover {
+    background-color: #e6e6e6;
+}
+
 #tag-span{
     font-weight: 500;
 }
 
+
 #tag-span > span {
-    font-weight: 600;
-    color: blueviolet;
+    font-weight: 500;
+    color: rgb(182, 160, 202);
 }
 
 #tagSpanClose{
@@ -48,6 +53,10 @@
     cursor: pointer;
     font-size: 17px;
     font-weight: normal;
+}
+
+#tagSpanClose:hover {
+    color: red;
 }
 
 .tagsInput{
