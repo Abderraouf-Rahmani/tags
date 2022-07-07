@@ -1,80 +1,80 @@
 .container {
-    max-width: 800px;
-    margin: 0px auto;
-    font-family: 'Roboto', sans-serif;
-
+  max-width: 800px;
+  margin: 0px auto;
+  font-family: "Roboto", sans-serif;
 }
 
-.input-container{
-    height: 40px;
-    width: 100%;
-    border: 1px solid lightgray;
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-    align-items: center;
-    font-size: 17px;
-    padding:0px 5px;
+.input-container {
+  height: 40px;
+  width: 100%;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  font-size: 17px;
+  padding: 0px 5px;
 }
 
-.tags-container{
-    gap: 6px;
-    display: flex;
-    
+.tags-container {
+  gap: 6px;
+  display: flex;
 }
 
-#tag-container{
-    padding: 4px 8px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    display: flex;
-    gap: 6px;
-    align-items: center;
+#tag-container {
+  padding: 4px 8px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: clamp(0.7em, 2.5vw, 0.9em);
 }
 
 #tag-container:hover {
-    background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 
-#tag-span{
-    font-weight: 500;
+#tag-span {
+  font-weight: 500;
+  display: flex;
+  gap: 2px;
 }
-
 
 #tag-span > span {
-    font-weight: 500;
-    color: rgb(182, 160, 202);
+  font-weight: 500;
+  color: rgb(182, 160, 202);
 }
 
-#tagSpanClose{
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 17px;
-    font-weight: normal;
+#tagSpanClose {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: normal;
 }
 
 #tagSpanClose:hover {
-    color: red;
+  color: red;
 }
 
-.tagsInput{
-    border: none;
-    height: 100%;
-    width: 100%;
-    font-size: 17px;
-    display: inline-block;
+.tagsInput {
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 17px;
+  font-size: clamp(0.7em, 2.5vw, 0.9em);
+  display: inline-block;
 }
 
-.input-wrapper{
-    height: calc(100% - 4px);
-    align-self: center;
-    flex-grow: 1;
+.input-wrapper {
+  height: calc(100% - 4px);
+  align-self: center;
+  flex-grow: 1;
 }
 
-.tagsInput:focus{
-    outline: none;
-
+.tagsInput:focus {
+  outline: none;
 }
